@@ -1,0 +1,192 @@
+/** Base Styles **/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #b3b3b3;
+    color: white;
+}
+
+
+/** Grid **/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+#portfolio,
+#about,
+#contact {
+    height: 2500px;
+}
+
+
+/** Header **/
+
+header {
+    height: 800px;
+    background: url('../img/detroit-skyline.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 70pt;
+    font-family: 'Sriracha', cursive;
+    padding: 65px 0 65px 25px;
+    text-align: right;
+}
+
+header h1 span {
+    color: #e62e00;
+    font-size: 74pt;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+header .half-width {
+    height: 400px;
+    overflow: auto;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+    font-size: 15pt;
+    font-family: 'Sriracha', cursive;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 80px;
+    color: white;
+}
+
+header h2 {
+    clear: both;
+    color: black;
+    font-size: 36pt;
+    font-family: 'Sriracha', cursive;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+}
+
+header h2 span {
+    color: #e62e00;
+}
+
+
+/** Sections **/
+
+h3 {
+    font-size: 30pt;
+    font-family: 'Sriracha', cursive;
+}
+
+p {
+    font-size: 24pt;
+}
+
+
+/** Portfolio **/
+
+#portfolio .full-width {
+    height: 1550px;
+}
+
+#portfolio .half-width {
+    height: 775px;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+#portfolio p {
+    text-align: justify;
+}
+
+
+/** About **/
+
+#about {
+    background: url('../img/shapes.jpg');
+    background-size: cover;
+    height: 650px;
+    overflow: auto;
+}
+
+#about .full-width {
+    height: 650px;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about p {
+    float: left;
+    height: 275px;
+}
+
+#signature {
+    color: #e62e00;
+    font-family: 'Homemade Apple', cursive;
+}
+
+#about img#sonay {
+    float: left;
+    margin-right: 25px;
+    border: 5px solid #e62e00;
+    width: 400px;
+    height: 400px;
+}
+
+
+/** Footer **/
+
+footer {
+    background: #333333;
+    background-size: cover;
+    height: 300px;
+}
+
+#contact h3,
+#contact p,
+#contact ul {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Sriracha', cursive;
+}
+
+#prolific {
+    color: #e62e00;
+}
